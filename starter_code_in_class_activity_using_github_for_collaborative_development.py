@@ -54,12 +54,14 @@ def subtraction(): #Ty
 def multiplication(): #Ty
   print()
   
-def division(): #Ethan
-  print()
+def division(number1, number2): #Ethan
+  print("We are dividing " + str(number1) + " by " + str(number2))
+  return number1 / number2
   
-def intDivision(): #Ethan
-  print()
-  
+def intDivision(number1, number2): #Ethan
+  print("We are performing integer division of " + str(number1) + " by " + str(number2))
+  return number1 // number2
+
 def sqrt(number1): #Quin
   print("We are taking the square root of " + str(number1))
   return math.sqrt(number1)
