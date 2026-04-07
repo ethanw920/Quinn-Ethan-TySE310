@@ -1,15 +1,13 @@
-
+import math
 
 #### TASK 1 - ENTER YOUR TEAM NAME AND NUMBER
+
+
 team_name = ""
 
 #### TASK 2 - Clone the empty gitHub repo in your local computer (Member #1)
 
 #### TASK 3 - Add this code to your gitHub repo - follow the best practices of add --> commit --> pull --> push
-
-def addition(number1, number2):
-  print("We are adding " + str(number1) + " and " + str(number2))
-  return number1 + number2
 
 
 def calculator():
@@ -25,24 +23,30 @@ def calculator():
 
   choice = int(input("Enter your choice: "))
   
+  number1 = float(input("Enter the first number: "))
+  
+  if not choice == 6:
+    number2 = float(input("Enter the second number: "))
+  
   match choice:
     case 1:
-      addition()
+      addition(number1, number2)
     case 2:
-      subtraction()
+      subtraction(number1, number2)
     case 3:
-      multiplication()
+      multiplication(number1, number2)
     case 4:
-      division()
+      division(number1, number2)
     case 5:
-      intDivision()
+      intDivision(number1, number2)
     case 6:
-      sqrt()
+      sqrt(number1)
     case 7:
-      exponent()
+      exponent(number1, number2)
 
-def addition(): #Ty
-  print()
+def addition(number1, number2):
+  print("We are adding " + str(number1) + " and " + str(number2))
+  return number1 + number2
 
 def subtraction(): #Ty
   print()
@@ -56,12 +60,13 @@ def division(): #Ethan
 def intDivision(): #Ethan
   print()
   
-def sqrt(): #Quin
-  print()
+def sqrt(number1): #Quin
+  print("We are taking the square root of " + str(number1))
+  return math.sqrt(number1)
 
-def exponent(): #Quin
-  print()
-
+def exponent(number1, number2): #Quin
+  print("We are taking " + str(number1) + " to the power of " + str(number2))
+  return math.pow(number1, number2)
 
 calculator()
 
