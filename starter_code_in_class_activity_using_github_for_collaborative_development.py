@@ -24,7 +24,43 @@ def calculator():
   print("7. Exponent")
 
   choice = int(input("Enter your choice: "))
+  
+  match choice:
+    case 1:
+      addition()
+    case 2:
+      subtraction()
+    case 3:
+      multiplication()
+    case 4:
+      division()
+    case 5:
+      intDivision()
+    case 6:
+      sqrt()
+    case 7:
+      exponent()
 
+def addition(): #Ty
+  print()
+
+def subtraction(): #Ty
+  print()
+
+def multiplication(): #Ty
+  print()
+  
+def division(): #Ethan
+  print()
+  
+def intDivision(): #Ethan
+  print()
+  
+def sqrt(): #Quin
+  print()
+
+def exponent(): #Quin
+  print()
 
 
 calculator()
