@@ -1,4 +1,6 @@
+import cmath
 import unittest
+from unittest import result
 from starter_code_in_class_activity_using_github_for_collaborative_development import calculator
 
 class TestCalculator(unittest.TestCase):
@@ -27,6 +29,10 @@ class TestCalculator(unittest.TestCase):
 
     def test_exponent(self):
         self.assertEqual(self.calc.exponent(2, 3), 8, "Exponent test failed")
+        
+    def test_complex_sqrt(self):
+        result = cmath.sqrt(-4)
+        self.assertEqual(result, 2j, "Complex Square Root test failed")
 
 if __name__ == '__main__':
     unittest.main()
