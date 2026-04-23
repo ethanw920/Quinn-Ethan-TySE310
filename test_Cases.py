@@ -1,7 +1,7 @@
 
 
 import unittest
-from starter_code_in_class_activity_using_github_for_collaborative_development import calculator
+from starter_code_in_class_activity_using_github_for_collaborative_development import intDivision, division, multiplication, subtraction, addition, sqrt, exponent
 
 class TestCalculator(unittest.TestCase):
     def setUp(self):

@@ -41,32 +41,32 @@ def calculator():
       exponent(number1, number2)
 
 def addition(number1, number2):
-  print("We are adding " + str(number1) + " and " + str(number2))
+  #print("We are adding " + str(number1) + " and " + str(number2))
   return number1 + number2
 
 def subtraction(number1, number2): #Ty
-  print("We are subtracting " + str(number2) + " from " + str(number1))
+  #print("We are subtracting " + str(number2) + " from " + str(number1))
   return number1 - number2
 
 
 def multiplication(number1, number2): #Ty
-  print("We are multiplying " + str(number1) + " and " + str(number2))
+  #print("We are multiplying " + str(number1) + " and " + str(number2))
   return number1 * number2
 
 def division(number1, number2): #Ethan
-  print("We are dividing " + str(number1) + " by " + str(number2))
+  #print("We are dividing " + str(number1) + " by " + str(number2))
   return number1 / number2
   
 def intDivision(number1, number2): #Ethan
-  print("We are performing integer division of " + str(number1) + " by " + str(number2))
+  #print("We are performing integer division of " + str(number1) + " by " + str(number2))
   return number1 // number2
 
 def sqrt(number1): #Quin
-  print("We are taking the square root of " + str(number1))
+  #print("We are taking the square root of " + str(number1))
   return math.sqrt(number1)
 
 def exponent(number1, number2): #Quin
-  print("We are taking " + str(number1) + " to the power of " + str(number2))
+  #print("We are taking " + str(number1) + " to the power of " + str(number2))
   return math.pow(number1, number2)
 
 calculator()
