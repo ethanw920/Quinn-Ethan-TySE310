@@ -1,6 +1,18 @@
 import math
 
+<<<<<<< Updated upstream
 team_name = "Quinn-Ethan-TyS310"
+=======
+#### TASK 1 - ENTER YOUR TEAM NAME AND NUMBER
+
+
+team_name = "Quinn-Ethan-TyS310"
+
+#### TASK 2 - Clone the empty gitHub repo in your local computer (Member #1)
+
+#### TASK 3 - Add this code to your gitHub repo - follow the best practices of add --> commit --> pull --> push
+
+>>>>>>> Stashed changes
 
 def calculator():
   print("Calculator by team =  " + team_name)
