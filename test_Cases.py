@@ -1,5 +1,3 @@
-
-
 import unittest
 from starter_code_in_class_activity_using_github_for_collaborative_development import calculator
 
